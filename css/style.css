@@ -180,8 +180,9 @@ main {
   /* Grid 2 */
 
   .ice-cream {
-    display: flex;
-    gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
     margin-bottom: 10em;
   }
   
@@ -193,12 +194,32 @@ main {
 
 @media (min-width:768px){
 
-.grid {
+    .grid {
     grid-template-columns: 1fr 1fr;
   }
   
-    .ice-cream {
-      grid-template-columns: 1fr 1fr;
-      gap: 2em;
-    } 
+    
+
+    .articles {
+        flex-direction: row;
+    }
+
+
+
   }
+
+  @media (min-width:960px) {
+    
+      .ice-cream {
+        display: flex;
+      }
+
+
+      .ultimate-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10em;
+        margin-bottom: 10em;
+      }
+     
+    
