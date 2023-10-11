@@ -120,6 +120,10 @@ h1 + span {
   align-items: center;
 }
 
+nav {
+  margin-bottom: 5em;
+}
+
 nav ul {
   display: flex;
   list-style-type: none;

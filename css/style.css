@@ -26,6 +26,10 @@
     margin: 0;
   }
  
+main {
+    margin-top: 5em;
+}
+
   .wrapper {
     max-width: 1800px;
     margin: 0 auto;
@@ -78,6 +82,7 @@
     border: 2px;
     border-radius: 10px;
     width: 12em;
+    margin-bottom: 5em;
   }
   
   /* Second paragraph */
@@ -94,15 +99,13 @@
     margin-bottom: 10em;
     margin-left: 10em;
     margin-right: 10em;
-    padding: 10rem;
+    padding: 5em;
   }
 
   .articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10em;
-    padding-left: 5em;
-    padding-right: 5em;
+    gap: 3em;
   }
   
   .articles div {
@@ -145,7 +148,7 @@
     .grid #item-to-span {
     grid-column: 1/4;
   }
-  
+
 /* 
   .grid {
     display: grid;
