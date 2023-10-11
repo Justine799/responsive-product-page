@@ -214,7 +214,6 @@ main {
         display: flex;
       }
 
-
       .ultimate-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -222,4 +221,10 @@ main {
         margin-bottom: 10em;
       }
      
+      .intro {
+        padding-left: 2em;
+      }
+
+
+    }
     
