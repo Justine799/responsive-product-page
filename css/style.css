@@ -96,15 +96,16 @@ main {
   #black-bar {
     background-color: #000;
     color: white;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     margin-left: 10em;
     margin-right: 10em;
     padding: 5em;
   }
 
   .articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+
     gap: 3em;
   }
   
