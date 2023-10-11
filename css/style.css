@@ -87,9 +87,9 @@ main {
   
   /* Second paragraph */
   .second-paragraph {
-    margin-bottom: 8em;
+    margin-bottom: 5em;
     display: flex;
-    gap: 5em;
+    gap: 3em;
   }
   
   /* Black bar */
@@ -105,7 +105,6 @@ main {
   .articles {
     display: flex;
     flex-direction: column;
-
     gap: 3em;
   }
   
@@ -136,7 +135,6 @@ main {
     text-transform: uppercase;
     color: #000;
   }
-   
 
   /* Grid 1 */
 
@@ -198,13 +196,9 @@ main {
     grid-template-columns: 1fr 1fr;
   }
   
-    
-
     .articles {
         flex-direction: row;
     }
-
-
 
   }
 
@@ -224,7 +218,6 @@ main {
       .intro {
         padding-left: 2em;
       }
-
 
     }
     
